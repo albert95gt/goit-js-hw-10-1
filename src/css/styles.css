@@ -11,6 +11,16 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+img {
+  display: block;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  }
+
 
 #search-box {
   font: inherit;
@@ -18,3 +28,25 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+
+.country-list-item{
+  display: flex;
+  align-items: center;
+}
+.country-flag-image {
+  margin: 10px;
+  width: 30px;
+  height: 20px;
+}
+.country-card-item{
+  display: flex;
+  align-items: center;
+}
+.country-card-desc{
+  font-size: 30px;
+}
+.country-card-list :not(:last-child){
+  margin-bottom: 10px;
+}
+
