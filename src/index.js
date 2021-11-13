@@ -26,7 +26,7 @@ function onSearchCountries(event) {
 
    fetchCountries(trimedInputValue)
    .then(data => {
-       console.log(data);
+       
         if(data.length > LENGTH){
             Notify.info('Too many matches found. Please enter a more specific name.')
             return;
